@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@506&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+$text-color: rgba(255,
+255,
+255,
+0.75);
+$main-color: #18181b;
+$font:'Source Code Pro',
+monospace;
+.App {
+    text-align: center;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: $main-color;
+    /* 1b1b1e */
+}
+
+.footer {
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.typing-text {
+    text-align: left;
+    border-right: solid 3px gray;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: $font;
+    font-size: 28px;
+    color: $text-color;
+    animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
+}
+
+
+/* Animation */
+
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 310px;
+    }
+}
+
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: $text-color
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
