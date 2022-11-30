@@ -13,9 +13,8 @@ function Home() {
             </h1>
             <h2 className="text-xl text-gray-300 font-bold">Yusuf Kaya</h2>
             <p className="text-gray-400 text-sm my-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore, iste maxime doloremque excepturi facilis sit
-              accusantium impedit voluptate fugiat voluptatem.
+            Merhaba, ben Yusuf 23 yaşındayım ve Cumhuriyet Üniversitesi / YBS 4.Sınıf öğrencisiyim, Front-End Developer olmak için çalışıyorum.
+
             </p>
           </div>
           <div>
@@ -222,7 +221,7 @@ function Home() {
                     rel="noreferrer"
                     className="border hover:text-red-500 border-gray-600 rounded-lg p-2 mx-2"
                     target={"_blank"}
-                    href="https://github.com/yusufky63"
+                    href="https://github.com/yusufky63/test-crypto2"
                   >
                     {" "}
                     <svg
@@ -265,19 +264,18 @@ function Home() {
 
                 <div>
                   {" "}
-                  <h3 className="text-gray-500 text-xs">ReactJS, Tailwind</h3>
+                  <h3 className="text-gray-500 text-xs">ReactJS, Tailwind, Firebase</h3>
                 </div>
               </div>
             </div>
             <div className="border border-gray-700 rounded-lg p-3">
               <div className="my-2 p-1">
                 {" "}
-                <h2 className="text-lg font-bold"> {"| "}Kripto Sitesi</h2>
+                <h2 className="text-lg font-bold"> {"| "}Not Uygulaması</h2>
               </div>
 
               <p className="text-sm text-gray-400">
-                Coin fiyatları, Kripto Haberleri ve Demo Al-Sat işlemlerinin
-                Geliştirildiği mini site.
+               Firebase bağlı basit bir not uygulaması.Kaydolma, düzenleme, arşivleme gibi özellikleri bulunuyor.
               </p>
               <div className=" flex justify-between items-end  pt-5  ">
                 <div className="flex">
@@ -286,7 +284,7 @@ function Home() {
                     rel="noreferrer"
                     className="border hover:text-red-500 border-gray-600 rounded-lg p-2 mx-2"
                     target={"_blank"}
-                    href="https://github.com/yusufky63"
+                    href="https://github.com/yusufky63/react-note-app"
                   >
                     {" "}
                     <svg
@@ -305,7 +303,7 @@ function Home() {
                     </svg>
                   </a>
                   <a
-                    href="https://test-react-crypto-app.netlify.app/"
+                    href="https://react-notes-app-redux.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="border hover:text-green-500 border-gray-600 rounded-lg p-2 mx-2"
@@ -329,7 +327,7 @@ function Home() {
 
                 <div>
                   {" "}
-                  <h3 className="text-gray-500 text-xs">ReactJS, Tailwind</h3>
+                  <h3 className="text-gray-500 text-xs">ReactJS, Tailwind, Firebase</h3>
                 </div>
               </div>
             </div>

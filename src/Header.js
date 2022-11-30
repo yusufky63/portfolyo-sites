@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 function Header() {
   return (
-    <div className=" flex  justify-center  my-5">
+    <div className=" flex justify-center  my-5">
       <nav className=" container max-w-3xl  ">
         <div className="font-bold text-gray-200 flex md:justify-start justify-center items-center  p-2 ">
           <div className=" hover:text-gray-400 hover:underline underline-offset-8">
