@@ -13,7 +13,7 @@ function Home() {
             </h1>
             <h2 className="text-xl text-gray-300 font-bold">Yusuf Kaya</h2>
             <p className="text-gray-400 text-sm my-5">
-            Merhaba, ben Yusuf 23 yaşındayım ve Cumhuriyet Üniversitesi / YBS 4.Sınıf öğrencisiyim, Front-End Developer olmak için çalışıyorum.
+            Merhaba, ben Yusuf 23 yaşında ve Cumhuriyet Üniversitesi / YBS 4.Sınıf öğrencisiyim, Front-End Developer olmak için çalışıyorum.
 
             </p>
           </div>
