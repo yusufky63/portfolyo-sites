@@ -221,7 +221,7 @@ function Home() {
                     rel="noreferrer"
                     className="border hover:text-red-500 border-gray-600 rounded-lg p-2 mx-2"
                     target={"_blank"}
-                    href="https://github.com/yusufky63/test-crypto2"
+                    href="https://github.com/yusufky63/crypto-app"
                   >
                     {" "}
                     <svg
@@ -240,7 +240,7 @@ function Home() {
                     </svg>
                   </a>
                   <a
-                    href="https://test-react-crypto-app.netlify.app/"
+                    href="https://cryptoa.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="border hover:text-green-500 border-gray-600 rounded-lg p-2 mx-2"
