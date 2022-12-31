@@ -44,7 +44,7 @@ function Projects() {
                     </svg>
                   </a>
                   <a
-                    href="https://cryptoa.netlify.app/"
+                    href="https://cryptoxchain.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="border hover:text-green-500 border-gray-600 rounded-lg p-2 mx-2"

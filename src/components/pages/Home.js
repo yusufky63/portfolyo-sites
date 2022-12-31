@@ -212,7 +212,7 @@ function Home() {
 
               <p className="text-sm text-gray-400">
                 Coin fiyatları, Kripto Haberleri ve Demo Al-Sat işlemlerinin
-                Geliştirildiği mini site.
+                gerçekleştirebileceğiniz mini site.
               </p>
               <div className=" flex justify-between items-end  pt-5  ">
                 <div className="flex">
@@ -240,7 +240,7 @@ function Home() {
                     </svg>
                   </a>
                   <a
-                    href="https://cryptoa.netlify.app/"
+                    href="https://cryptoxchain.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="border hover:text-green-500 border-gray-600 rounded-lg p-2 mx-2"
