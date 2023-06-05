@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import GithubIcon from "../../assets/GithubIcon";
 import OtherLinkIcon from "../../assets/OtherLinkIcon";
 
-import { data } from "../../projectsdata";
+import { mainprojects } from "../../projectsdata";
 
 function HomeProjects() {
   return (
@@ -38,7 +38,7 @@ function HomeProjects() {
         </motion.div>
 
         <div className=" grid gap-4 grid-cols-1 sm:grid-cols-2  ">
-          {data.map((item) => {
+          {mainprojects.map((item) => {
             return (
               <div
                 className="border border-gray-700 rounded-lg p-3"
@@ -47,10 +47,16 @@ function HomeProjects() {
                 <div className="my-2 p-1">
                   <h2 className="text-lg font-bold hover:translate-x-3 transition-all ">
                     <span className="text-gray-500 shadow-2xl">{"| "}</span>
-                    {item.title}
+                    {item.title.length > 30
+                      ? item.title.slice(0, 30) + "..."
+                      : item.title}
                   </h2>
                 </div>
-                <p className="text-sm text-gray-400">{item.desc}</p>
+                <p className="text-sm break-words text-gray-400">
+                  {item.desc.length > 50
+                    ? item.desc.slice(0, 120) + "..."
+                    : item.desc}
+                </p>
                 <div className="flex justify-between items-end pt-5">
                   <div className="flex">
                     <a

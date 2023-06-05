@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { data } from "../../projectsdata";
+import { projects } from "../../projectsdata";
 
 import GithubIcon from "../../assets/GithubIcon";
 import OtherLinkIcon from "../../assets/OtherLinkIcon";
@@ -23,7 +23,7 @@ function Projects() {
             <span className="text-gray-500"># </span>Projeler
           </h1>
           <div className=" grid gap-4 grid-cols-1  text-left mb-10">
-            {data.map((item) => {
+            {projects.map((item) => {
               return (
                 <div
                   className="border border-gray-700 rounded-lg p-3"
