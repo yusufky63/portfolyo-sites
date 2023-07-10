@@ -4,6 +4,7 @@ import GithubIcon from "./assets/GithubIcon";
 import TwitterIcon from "./assets/TwitterIcon";
 import EmailIcon from "./assets/EmailIcon";
 import LinkedinIcon from "./assets/LinkedinIcon";
+
 function Footer() {
   return (
     <motion.div

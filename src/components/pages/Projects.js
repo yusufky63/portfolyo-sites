@@ -26,7 +26,7 @@ function Projects() {
             {projects.map((item) => {
               return (
                 <div
-                  className="border border-gray-700 rounded-lg p-3"
+                  className=" card  rounded-lg p-3"
                   key={item.id}
                 >
                   <div className="my-2 p-1">

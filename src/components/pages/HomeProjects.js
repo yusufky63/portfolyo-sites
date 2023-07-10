@@ -40,10 +40,7 @@ function HomeProjects() {
         <div className=" grid gap-4 grid-cols-1 sm:grid-cols-2  ">
           {mainprojects.map((item) => {
             return (
-              <div
-                className="border border-gray-700 rounded-lg p-3"
-                key={item.id}
-              >
+              <div className=" p-3 card" key={item.id}>
                 <div className="my-2 p-1">
                   <h2 className="text-lg font-bold hover:translate-x-3 transition-all ">
                     <span className="text-gray-500 shadow-2xl">{"| "}</span>

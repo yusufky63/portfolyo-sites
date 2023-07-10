@@ -44,8 +44,8 @@ function Home() {
               transition={{ delay: 0.2, duration: 1 }}
               className="text-gray-400 text-sm my-5"
             >
-              Merhaba, ben Yusuf 23 yaşında ve Cumhuriyet Üniversitesi / YBS
-              4.Sınıf öğrencisiyim, Front-End Developer olmak için çalışıyorum.
+              Merhaba, ben Yusuf 23 yaşındayım ve Cumhuriyet Üniversitesi / YBS
+              mezunuyum, Front-End Developer olmak için çalışıyorum.
             </motion.p>
           </motion.div>
           <motion.div

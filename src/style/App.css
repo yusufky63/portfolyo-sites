@@ -9,7 +9,6 @@ body {
   font-family: "Inter", sans-serif;
   color: white;
   background-color: #18181b;
-  /* 1b1b1e */
 }
 
 .footer {
@@ -26,20 +25,9 @@ body {
   font-family: "Source Code Pro", monospace;
   font-size: 28px;
   color: rgba(255, 255, 255, 0.75);
-  -webkit-animation: animated-text 4s steps(29, end) 1s 1 normal both;
-          animation: animated-text 4s steps(29, end) 1s 1 normal both;
+  animation: animated-text 4s steps(29, end) 1s 1 normal both;
 }
 
-/* Animation */
-/* text animation */
-@-webkit-keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 340px;
-  }
-}
 @keyframes animated-text {
   from {
     width: 0;
@@ -48,4 +36,8 @@ body {
     width: 340px;
   }
 }
-/* cursor animations *//*# sourceMappingURL=App.css.map */
+.card {
+  border-radius: 11px;
+  background: #18181b;
+  box-shadow: inset -5px 5px 10px #111113, inset 5px -5px 10px #1f1f23;
+}/*# sourceMappingURL=App.css.map */
